@@ -143,6 +143,7 @@ Retry → Circuit Breaker → Timeout → gRPC call
 | [PollyBulkhead](https://www.nuget.org/packages/PollyBulkhead) | Bulkhead isolation for concurrent workloads |
 
 | [PollyKafka](https://www.nuget.org/packages/PollyKafka) | Polly v8 resilience (retry, CB, timeout) for Confluent.Kafka producers and consumers |
+| [PollyAzureServiceBus](https://www.nuget.org/packages/PollyAzureServiceBus) | Polly v8 resilience (retry, CB, timeout) for Azure Service Bus senders and receivers |
 ## License
 
 MIT
