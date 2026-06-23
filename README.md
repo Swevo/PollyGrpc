@@ -142,6 +142,7 @@ Retry → Circuit Breaker → Timeout → gRPC call
 | [PollyCaching](https://www.nuget.org/packages/PollyCaching) | Distributed cache with Polly resilience |
 | [PollyBulkhead](https://www.nuget.org/packages/PollyBulkhead) | Bulkhead isolation for concurrent workloads |
 
+| [PollyKafka](https://www.nuget.org/packages/PollyKafka) | Polly v8 resilience (retry, CB, timeout) for Confluent.Kafka producers and consumers |
 ## License
 
 MIT
