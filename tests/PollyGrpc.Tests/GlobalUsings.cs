@@ -1,0 +1,10 @@
+global using FluentAssertions;
+global using Grpc.Core;
+global using Grpc.Core.Interceptors;
+global using Grpc.Net.Client;
+global using Microsoft.Extensions.DependencyInjection;
+global using Polly;
+global using Polly.CircuitBreaker;
+global using Polly.Timeout;
+global using PollyGrpc;
+global using Xunit;
