@@ -37,5 +37,7 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
+      - run: dotnet restore
+      - run: dotnet build src/PollyGrpc/PollyGrpc.csproj -c Release --no-restore
       - run: dotnet pack src/PollyGrpc/PollyGrpc.csproj -c Release --no-build -o nupkgs
       - run: dotnet nuget push nupkgs/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
