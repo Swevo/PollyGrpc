@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
 
     <PackageId>PollyGrpc</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Swevo</Authors>
     <Description>Polly v8 resilience interceptor for gRPC. Wraps unary and server-streaming gRPC calls with retry, circuit breaker, and timeout using a Grpc.Core Interceptor. Works with Grpc.Net.Client and GrpcChannel — drop-in via AddPollyResilience() on IHttpClientBuilder or CallInvoker.</Description>
     <PackageTags>polly;polly-v8;grpc;grpc-net;grpc-client;resilience;retry;circuit-breaker;timeout;interceptor;dotnet;csharp;fault-tolerance;transient-fault;backoff;microservices;rpc;protobuf;distributed-systems</PackageTags>
