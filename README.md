@@ -3,6 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/PollyGrpc.svg)](https://www.nuget.org/packages/PollyGrpc)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyGrpc.svg)](https://www.nuget.org/packages/PollyGrpc)
 [![CI](https://github.com/Swevo/PollyGrpc/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyGrpc/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Polly v8 resilience for gRPC .NET** — retry, timeout, and circuit-breaker for any gRPC unary call, plus a built-in `GrpcTransientErrors` predicate covering the most common transient status codes. Works with any generated gRPC client, `GrpcChannel`, or `CallInvoker`.
 
